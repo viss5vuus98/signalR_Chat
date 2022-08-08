@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{91FE1BC9-C3D3-42B9-83A3-6F0FD2A0C8A2}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="signalR_test/Views/Home/Index.cshtml">
+    <Files>
+      <File FileName="signalR_test/Hubs/ChatHub.cs" Line="7" Column="3" />
+      <File FileName="signalR_test/Program.cs" Line="29" Column="24" />
+      <File FileName="signalR_test/Views/Home/Index.cshtml" Line="62" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="signalR_test" expanded="True">
+            <Node name="signalR_test" expanded="True">
+              <Node name="Hubs" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="lib" expanded="True">
+                  <Node name="microsoft" expanded="True">
+                    <Node name="signalr" expanded="True">
+                      <Node name="dist" expanded="True">
+                        <Node name="browser" expanded="True" />
+                      </Node>
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.signalR__test PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
