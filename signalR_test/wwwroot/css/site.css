@@ -16,3 +16,94 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+a.nav-link {
+    color: gray;
+    font-size: 1.2rem;
+    padding: 0;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #e84118;
+    padding: 2px;
+}
+
+input:focus {
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.card-text {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+#chat-circle {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: white;
+    padding: 28px;
+    cursor: pointer;
+    box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.6), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+#chat-overlay {
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: none;
+}
+
+.fa-comment-dots {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateX(50%) translateY(-50%);
+    font-size: 30px;
+    z-index: 98;
+    color: #c0b0a2;
+}
+
+.card.scaleBox {
+    transform-origin: right bottom;
+    transform: scale(1, 1);
+    opacity: 1;
+    transition: .3s ease-out;
+}
+
+.card-toggle {
+    transform-origin: right bottom;
+    transform: scale(0, 0);
+    opacity: 0;
+    transition: .3s ease-out;
+}
+
+.btn-toggle {
+    transform-origin: right bottom;
+    transform: scale(0, 0);
+    opacity: 0;
+    transition: .3s ease-out;
+}
+
+    .btn-toggle.scaleBox {
+        transform-origin: right bottom;
+        transform: scale(1, 1);
+        opacity: 1;
+        transition: .3s ease-out;
+    }
+
+.btn-send {
+    width: 80px;
+}
