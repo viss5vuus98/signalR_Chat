@@ -1,7 +1,63 @@
 ﻿@{
     ViewData["Title"] = "Privacy Policy";
 }
-<h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<div class="container mt-4 position-absolute d-flex justify-content-center">
+    <div class="card user-content">
+        <ul class="user-list" id="user-list">
+            @*<li class="clearfix">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_01.jpg" alt="avatar" class="me-2">
+                <p>Vincent Porter</p>
+            </li>*@
+        </ul>
+    </div>
 
+
+
+    <div class="card" id="chat-card" style="width: 400px; max-width: 400px;">
+        <div class="card-header bg-transparent">
+            <div class="navbar navbar-expand p-0">
+                <ul class="navbar-nav me-auto align-items-center">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <div class="position-relative"
+                                 style="width: 50px;height: 50px;border-radius: 50%; border: 2px solid #e84118; padding: 2px;">
+                                <img src="#" alt="Logo" class="img-fluid rounded-circle">
+                                <span class="position-absolute bottom-0 start-100 translate-middle p-1 bg-success border border-light rounded-circle">
+                                    <span class="visually-hidden">New alerts</span>
+                                </span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">house</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" id="chat-exit-btn">
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card-body p-4" id="admin-chat" style="height: 500px; overflow: auto;">
+            
+            
+        </div>
+        <div class="card-footer bg-white position-absolute bottom-0 m-0 p-1 w-100">
+            <div class="input-group">
+                <input type="text" class="form-control border-0" id="input-Admsg" placeholder="Write a message...">
+                <button class="btn btn-light text-secondary btn-send" id="send-Admsg" date-sendto="">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/admin.js" asp-append-version="true"></script>
+}

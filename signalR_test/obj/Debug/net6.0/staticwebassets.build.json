@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QegrKAoFfUOROzIiASsNfKm3EfVJcuJHqvMhhXd96oA=",
+  "Hash": "ejswW0CsXUdjzzDzVRb9QQXT0dsYXJYkGJMJFCa34KA=",
   "Source": "signalR_test",
   "BasePath": "_content/signalR_test",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/yiliang/ispan_dir/dotNetCore/signalR_test/signalR_test/wwwroot/js/admin.js",
+      "SourceId": "signalR_test",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/yiliang/ispan_dir/dotNetCore/signalR_test/signalR_test/wwwroot/",
+      "BasePath": "_content/signalR_test",
+      "RelativePath": "js/admin.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/admin.js"
     },
     {
       "Identity": "/Users/yiliang/ispan_dir/dotNetCore/signalR_test/signalR_test/wwwroot/js/site.js",

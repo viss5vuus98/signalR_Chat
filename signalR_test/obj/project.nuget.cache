@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CwGp77dTxPi3yORlSZrg1AiBMtH91aNKo52+r2PqZqJvBo89iXNOLUyFCi/g8iKhsZshEWBdgJoFq6pdUQ90qw==",
+  "dgSpecHash": "F4y/KxiiLu9B8Q98sutOlak+IzxR2oFrSgL6aKTX1XdiLbHaWyOcnTsBXHDdcawymqHNXjCI4UYK7zvep9X3Xg==",
   "success": true,
   "projectFilePath": "/Users/yiliang/ispan_dir/dotNetCore/signalR_test/signalR_test/signalR_test.csproj",
   "expectedPackageFiles": [

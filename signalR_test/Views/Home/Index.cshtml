@@ -23,9 +23,12 @@
     <button type="button" class="btn btn-primary" id="sendButton">傳送訊息</button>
 </div>
 
-<script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+@section Scripts {
+    <script src="~/js/site.js" asp-append-version="true"></script>
+}
 
-<script>const connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build()
+
+<!--<script>const connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build()
 
     connection.on("ReceiveMessage", function (user, message) {
         alert(`Hi ${user}, you said: ${message}`)
@@ -33,36 +36,37 @@
 
     connection.on("UpdList", function (jsonList) {
         const list = JSON.parse(jsonList);
-        for (let i = 0; i < list.length; i++) {
-            console.log(list[i])
-        }
-    })
+        sessionStorage.removeItem('connectList')
+        sessionStorage.setItem('connectList', jsonList)-->
+@*for (let i = 0; i < list.length; i++) {
+        console.log(list[i])
+    }*@
+<!--})
 
-    connection.on("UpdSelfID", function (id) {
-        console.log(`Login: ${id}`)
-        document.getElementById('SelfID').innerText = id
-    })
+connection.on("UpdSelfID", function (id) {
+    console.log(`Login: ${id}`)
+    document.getElementById('SelfID').innerText = id
+})
 
-    connection.on("UpdContent", function (msg) {
-        console.log(msg)
-    })
+connection.on("UpdContent", function (msg) {
+    console.log(msg)
+})
 
-    document.getElementById('sendButton').addEventListener('click', () => {
-        const selfID = document.getElementById('SelfID').innerText;
-        const message = document.getElementById('message').value;
-        const sendToID = document.getElementById('sendToID').value;
-        connection.invoke("Message", selfID, message, sendToID).catch(function (err) {
-            console.log("錯誤" + err.toString())
-        })
-    })
 
-    connection.start().then(function () {
-        connection.invoke("SendMessage", 'Will', 'Hello World')
-        console.log("Hub 連線完成")
-            @*.catch(function (err) {
-                return console.error(err.toString())
-            })*@
-    }).catch(function (err) {
-        console.error(err.toString())
+
+
+document.getElementById('sendButton').addEventListener('click', () => {
+    const selfID = document.getElementById('SelfID').innerText;
+    const message = document.getElementById('message').value;
+    const sendToID = document.getElementById('sendToID').value;
+    connection.invoke("Message", selfID, message, sendToID).catch(function (err) {
+        console.log("錯誤" + err.toString())
     })
-    </script>
+})
+
+
+
+
+
+
+</script>-->

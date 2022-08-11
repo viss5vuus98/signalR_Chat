@@ -107,3 +107,36 @@ input:focus {
 .btn-send {
     width: 80px;
 }
+
+/*Admin*/
+
+.card {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.user-content {
+    width: 260px;
+    background-color: #444753;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.user-list {
+    padding: 20px;
+    list-style: none;
+}
+
+    .user-list li {
+        padding-bottom: 20px;
+        display: flex;
+        align-items: center;
+        color: #fff;
+    }
+
+        .user-list li:hover {
+            color: aqua;
+        }
